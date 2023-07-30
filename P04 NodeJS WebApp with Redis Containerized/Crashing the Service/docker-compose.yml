@@ -1,0 +1,14 @@
+# Stating version number of docker
+version: "3"
+services:
+# Services is referred to containers
+  redis-server:
+    image: redis
+  node-app:
+  # Restart Policy
+    restart: on-failure
+  # Build the node app with the docker file from the current directory
+    build: .
+    # Designate Port Mapping
+    ports:
+      - "4001:8081"
