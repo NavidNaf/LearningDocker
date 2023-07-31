@@ -9,3 +9,6 @@ Cache using procedure explained with comments.
 
 ### P03 NodeJS WebApp Containerized
 Simple WebApp creation with NodeJS and making it containerized.
+
+### P04 NodeJS WebApp with Redis Containerized
+Simple WebApp with visit count, built with Redis and containerized. Availability of containers also implemented.
