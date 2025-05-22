@@ -1,5 +1,5 @@
 # Specify Base Image
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 
 # Specifying Workdirectory. Good practice. Isolates the files related to the app
 WORKDIR /usr/app
